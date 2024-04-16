@@ -29,7 +29,7 @@ function UserList(){
                 {users.map(users => (
                    <div>
                    <li key={users.id}> {users.name}</li> 
-                   <li key={users.id}> {users.phone}</li> 
+                   <li key={users.id}> {users.email}</li> 
                    </div>
                 ))}
 
